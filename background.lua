@@ -9,7 +9,7 @@
 local M = {}
 
 -- ======== 可调参数 ========
-M.wallpaper = "D:/App/Tabby/resources/ac041_void棺材胡桃4k.jpg"
+M.wallpaper = "D:/Data/图片/壁纸/HuTao/ac041_void棺材胡桃4k.jpg"
 
 M.opacity = 0.93          -- 整体窗口不透明度 (Tabby: appearance.opacity)
                           -- < 1.0 时亚克力材质才会透出
