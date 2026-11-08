@@ -3,7 +3,7 @@
 
 return function(config)
   config.default_prog = { "powershell.exe", "-NoLogo" }
-  config.default_cwd = "D:/Data/Desktop"
+  config.default_cwd = "D:/Home"
 
   config.set_environment_variables = {
     WT_SESSION = "0",
@@ -15,7 +15,7 @@ return function(config)
 
   config.launch_menu = {
     { label = "Windows PowerShell", args = { "powershell.exe", "-NoLogo" } },
-    { label = "PowerShell 7", args = { "pwsh.exe", "-NoLogo", "-NoProfile" } },
+    { label = "Git Bash", args = { "D:/Envs/Git/bin/bash.exe", "-i", "-l" } },
     { label = "Command Prompt", args = { "cmd.exe" } },
   }
 end
